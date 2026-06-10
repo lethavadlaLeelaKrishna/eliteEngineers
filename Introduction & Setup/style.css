@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background: #f5f7fb;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #0ea5e9
+    );
+
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+}
+
+.card {
+    background: white;
+    margin: 20px auto;
+    max-width: 1100px;
+    padding: 25px;
+    border-radius: 12px;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,.08);
+}
+
+.card h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.analogy {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.analogy div {
+    flex: 1;
+    min-width: 180px;
+    background: #eff6ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.timeline-item {
+    min-width: 180px;
+    background: #e0f2fe;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(200px,1fr));
+
+    gap: 15px;
+}
+
+.box,
+.engine-card,
+.tool-card {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+    transition: .3s;
+}
+
+.box:hover,
+.engine-card:hover,
+.tool-card:hover {
+    transform: translateY(-5px);
+}
+
+.comparison {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.compare-box {
+    flex: 1;
+    min-width: 250px;
+
+    background: #eff6ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+
+    border: none;
+    padding: 12px 20px;
+
+    border-radius: 8px;
+    cursor: pointer;
+
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.output {
+    margin-top: 15px;
+    background: #111827;
+    color: #10b981;
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 80px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+}
