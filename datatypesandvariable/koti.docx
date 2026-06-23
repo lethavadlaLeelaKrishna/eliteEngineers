@@ -1,0 +1,60 @@
+<link rel="stylesheet" charset="UTF-8" type="text/css"
+    href="/xmlpserver/cabo/styles/cache/swan-desktop-11_1_2_0_0-en-chrome.css">
+<table class="x1g" cellpadding="0" cellspacing="0" border="0" width="100%" summary="" role="presentation">
+    <tr>
+        <td width="8" height="6"><img src="/xmlpserver/cabo/images/swan/msgBoxTop-L.gif" width="8" height="6" border="0"
+                alt=""></td>
+        <td width="100%" background="/xmlpserver/cabo/images/swan/msgBoxTop-Bg.gif"></td>
+        <td width="8" height="6"><img src="/xmlpserver/cabo/images/swan/msgBoxTop-R.gif" width="8" height="6" border="0"
+                alt=""></td>
+    </tr>
+    <tr>
+        <td background="/xmlpserver/cabo/images/swan/msgBoxMain-L.gif"></td>
+        <td class="x7f">
+            <div>
+                <div class="x6b">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" summary="" role="presentation">
+                        <tr valign="bottom">
+                            <td><img src="/xmlpserver/cabo/images/swan/errorl.gif" width="18" height="18" border="0"
+                                    alt=""></td>
+                            <td><img src="/xmlpserver/cabo/images/swan/t.gif" alt="" width="5" height="0"></td>
+                            <td width="100%">
+                                <table cellpadding="0" cellspacing="0" border="0" width="100%" summary=""
+                                    role="presentation">
+                                    <tr>
+                                        <td width="100%">
+                                            <h1 class="x5z">Error</h1>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="x47">The report cannot be rendered because of an error, please contact the administrator.</div>
+            <div class="x46"><a
+                    onclick="javascript:document.getElementById('errordetail').style.display='block';return false;"
+                    href="#" class="xh">Error Detail</a></div>
+        </td>
+        <td background="/xmlpserver/cabo/images/swan/msgBoxMain-R.gif"></td>
+    </tr>
+    <tr>
+        <td width="8" height="6"><img src="/xmlpserver/cabo/images/swan/msgBoxBtm-L.gif" width="8" height="6" border="0"
+                alt=""></td>
+        <td width="100%" background="/xmlpserver/cabo/images/swan/msgBoxBtm-Bg.gif"></td>
+        <td width="8" height="6"><img src="/xmlpserver/cabo/images/swan/msgBoxBtm-R.gif" width="8" height="6" border="0"
+                alt=""></td>
+    </tr>
+</table>
+<div></div>
+<table width="90%" cellPadding="5" cellSpacing="0" border="0" id="errordetailtable" height="1000">
+    <tr valign="top">
+        <td>
+            <div style="display:none" id="errordetail"><span class="x30">
+                    <pre><span style="font-size:9pt">Unauthorized Access: Either you do not have the privilege, 
+                        or you have not signed in.</span></pre>
+                </span></div>
+        </td>
+    </tr>
+</table>
